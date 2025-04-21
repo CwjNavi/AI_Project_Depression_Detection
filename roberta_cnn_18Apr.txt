@@ -1,0 +1,204 @@
+Running config 1/8: {'dropout': 0.4, 'kernel_size': 3, 'lr': 1e-05, 'num_filters': 64}
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/8
+100%|██████████| 1112/1112 [04:47<00:00,  3.87it/s]
+Train Loss: 0.5902 | Acc: 0.7863 | F1: 0.6248
+Val Loss: 1.0754 | Acc: 0.5338 | F1: 0.4388
+saved roberta_cnn_nf64_ks3_do40_lr1e-05_
+
+Epoch 2/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.3326 | Acc: 0.8858 | F1: 0.8336
+Val Loss: 1.0134 | Acc: 0.5707 | F1: 0.5078
+saved roberta_cnn_nf64_ks3_do40_lr1e-05_
+
+Epoch 3/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.2289 | Acc: 0.9227 | F1: 0.8918
+Val Loss: 1.0056 | Acc: 0.5872 | F1: 0.5288
+saved roberta_cnn_nf64_ks3_do40_lr1e-05_
+
+Epoch 4/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.1592 | Acc: 0.9488 | F1: 0.9290
+Val Loss: 1.0474 | Acc: 0.5641 | F1: 0.5237
+
+Epoch 5/8
+100%|██████████| 1112/1112 [04:47<00:00,  3.86it/s]
+Train Loss: 0.1114 | Acc: 0.9657 | F1: 0.9533
+Val Loss: 1.3360 | Acc: 0.5787 | F1: 0.5400
+saved roberta_cnn_nf64_ks3_do40_lr1e-05_
+
+Epoch 6/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.0787 | Acc: 0.9759 | F1: 0.9663
+Val Loss: 1.3573 | Acc: 0.5716 | F1: 0.5363
+
+Epoch 7/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.85it/s]
+Train Loss: 0.0608 | Acc: 0.9825 | F1: 0.9763
+Val Loss: 1.4781 | Acc: 0.5456 | F1: 0.5189
+Early stopping.
+
+Running config 2/8: {'dropout': 0.4, 'kernel_size': 3, 'lr': 1e-05, 'num_filters': 128}
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/8
+100%|██████████| 1112/1112 [04:50<00:00,  3.82it/s]
+Train Loss: 0.5738 | Acc: 0.7898 | F1: 0.6357
+Val Loss: 1.0032 | Acc: 0.5349 | F1: 0.4689
+saved roberta_cnn_nf128_ks3_do40_lr1e-05_
+
+Epoch 2/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.3099 | Acc: 0.8964 | F1: 0.8458
+Val Loss: 1.1115 | Acc: 0.5113 | F1: 0.4685
+
+Epoch 3/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.2035 | Acc: 0.9338 | F1: 0.9063
+Val Loss: 1.1558 | Acc: 0.5489 | F1: 0.5204
+saved roberta_cnn_nf128_ks3_do40_lr1e-05_
+
+Epoch 4/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.1291 | Acc: 0.9592 | F1: 0.9440
+Val Loss: 1.0912 | Acc: 0.5387 | F1: 0.5181
+
+Epoch 5/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0955 | Acc: 0.9704 | F1: 0.9598
+Val Loss: 1.3302 | Acc: 0.5527 | F1: 0.5206
+saved roberta_cnn_nf128_ks3_do40_lr1e-05_
+
+Epoch 6/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0637 | Acc: 0.9805 | F1: 0.9724
+Val Loss: 1.4012 | Acc: 0.5865 | F1: 0.5545
+saved roberta_cnn_nf128_ks3_do40_lr1e-05_
+
+Epoch 7/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0492 | Acc: 0.9862 | F1: 0.9808
+Val Loss: 1.5699 | Acc: 0.5870 | F1: 0.5423
+
+Epoch 8/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0381 | Acc: 0.9885 | F1: 0.9839
+Val Loss: 1.5865 | Acc: 0.5676 | F1: 0.5330
+Early stopping.
+
+Running config 3/8: {'dropout': 0.4, 'kernel_size': 3, 'lr': 1.6e-05, 'num_filters': 64}
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.5662 | Acc: 0.7927 | F1: 0.6480
+Val Loss: 0.9515 | Acc: 0.5496 | F1: 0.4807
+saved roberta_cnn_nf64_ks3_do40_lr16e-05_
+
+Epoch 2/8
+100%|██████████| 1112/1112 [04:47<00:00,  3.86it/s]
+Train Loss: 0.3071 | Acc: 0.8939 | F1: 0.8464
+Val Loss: 0.9293 | Acc: 0.5345 | F1: 0.4992
+saved roberta_cnn_nf64_ks3_do40_lr16e-05_
+
+Epoch 3/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.1957 | Acc: 0.9353 | F1: 0.9118
+Val Loss: 1.0343 | Acc: 0.5950 | F1: 0.5236
+saved roberta_cnn_nf64_ks3_do40_lr16e-05_
+
+Epoch 4/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.1361 | Acc: 0.9529 | F1: 0.9347
+Val Loss: 1.0934 | Acc: 0.5547 | F1: 0.5221
+
+Epoch 5/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.86it/s]
+Train Loss: 0.0956 | Acc: 0.9696 | F1: 0.9582
+Val Loss: 1.3945 | Acc: 0.5678 | F1: 0.5217
+Early stopping.
+
+Running config 4/8: {'dropout': 0.4, 'kernel_size': 3, 'lr': 1.6e-05, 'num_filters': 128}
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.85it/s]
+Train Loss: 0.5696 | Acc: 0.7909 | F1: 0.6493
+Val Loss: 1.0433 | Acc: 0.5785 | F1: 0.4624
+saved roberta_cnn_nf128_ks3_do40_lr16e-05_
+
+Epoch 2/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.85it/s]
+Train Loss: 0.3204 | Acc: 0.8883 | F1: 0.8386
+Val Loss: 0.9364 | Acc: 0.5758 | F1: 0.5121
+saved roberta_cnn_nf128_ks3_do40_lr16e-05_
+
+Epoch 3/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.1971 | Acc: 0.9345 | F1: 0.9107
+Val Loss: 1.1694 | Acc: 0.5721 | F1: 0.5075
+
+Epoch 4/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.1319 | Acc: 0.9571 | F1: 0.9413
+Val Loss: 1.2936 | Acc: 0.5509 | F1: 0.5135
+saved roberta_cnn_nf128_ks3_do40_lr16e-05_
+
+Epoch 5/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0856 | Acc: 0.9749 | F1: 0.9663
+Val Loss: 1.1448 | Acc: 0.5623 | F1: 0.5316
+saved roberta_cnn_nf128_ks3_do40_lr16e-05_
+
+Epoch 6/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0603 | Acc: 0.9816 | F1: 0.9735
+Val Loss: 1.5877 | Acc: 0.5525 | F1: 0.5062
+
+Epoch 7/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.0454 | Acc: 0.9865 | F1: 0.9813
+Val Loss: 1.5875 | Acc: 0.5665 | F1: 0.5271
+Early stopping.
+
+Running config 5/8: {'dropout': 0.4, 'kernel_size': 5, 'lr': 1e-05, 'num_filters': 64}
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.85it/s]
+Train Loss: 0.5853 | Acc: 0.7880 | F1: 0.6194
+Val Loss: 0.9222 | Acc: 0.5832 | F1: 0.5091
+saved roberta_cnn_nf64_ks5_do40_lr1e-05_
+
+Epoch 2/8
+100%|██████████| 1112/1112 [04:48<00:00,  3.85it/s]
+Train Loss: 0.3440 | Acc: 0.8849 | F1: 0.8319
+Val Loss: 1.1043 | Acc: 0.5790 | F1: 0.5063
+
+Epoch 3/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.2248 | Acc: 0.9264 | F1: 0.8991
+Val Loss: 1.1275 | Acc: 0.5692 | F1: 0.5186
+saved roberta_cnn_nf64_ks5_do40_lr1e-05_
+
+Epoch 4/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.1450 | Acc: 0.9548 | F1: 0.9383
+Val Loss: 1.1520 | Acc: 0.5427 | F1: 0.5116
+
+Epoch 5/8
+100%|██████████| 1112/1112 [04:49<00:00,  3.84it/s]
+Train Loss: 0.1024 | Acc: 0.9675 | F1: 0.9563
+Val Loss: 1.3422 | Acc: 0.5634 | F1: 0.5248
+saved roberta_cnn_nf64_ks5_do40_lr1e-05_
+
+Epoch 6/8
+  2%|▏         | 23/1112 [00:06<04:55,  3.68it/s]
